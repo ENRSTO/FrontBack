@@ -21,25 +21,25 @@ public class AppController {
 	
 	static ArrayList<String> cities;
 	
-	 static {
-	        // Inizializza l'ArrayList con valori predefiniti
-	        cities = new ArrayList<>();
-	        cities.add("Roma");
-	        cities.add("Milano");
-	        cities.add("Napoli");
-	    }
+	static {
+		// Inizializza l'ArrayList con valori predefiniti
+		cities = new ArrayList<>();
+		cities.add("Roma");
+		cities.add("Milano");
+		cities.add("Napoli");
+	}
 	
 	
 	@GetMapping("/out")
 	public static List<String> printCities() {
 
 		// accepts an argument and returns a boolean
-	    Predicate<String> filterCity = city -> city.equals("Roma") || city.equals("Milano");
-	    var lista  = cities.stream().collect(Collectors.toList());
-	  
-	    //var lista  = cities.stream().filter(filterCity).collect(Collectors.toList());
-	    System.out.println(lista);
-	    return lista;
+		Predicate<String> filterCity = city -> city.equals("Roma") || city.equals("Milano");
+		var lista  = cities.stream().collect(Collectors.toList());
+
+		//var lista  = cities.stream().filter(filterCity).collect(Collectors.toList());
+		System.out.println(lista);
+		return lista;
 	}	
 	
 	
