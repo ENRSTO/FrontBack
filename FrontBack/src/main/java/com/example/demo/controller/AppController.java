@@ -18,7 +18,7 @@ import org.slf4j.LoggerFactory;
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 public class AppController {
-	
+	//superman	
 	static ArrayList<String> cities;
 	
 	static {
@@ -27,16 +27,15 @@ public class AppController {
 		cities.add("Roma");
 		cities.add("Milano");
 		cities.add("Napoli");
+		cities.add("Bari");
 	}
 	
 	
 	@GetMapping("/out")
 	public static List<String> printCities() {
-
-		// accepts an argument and returns a boolean
+		
 		Predicate<String> filterCity = city -> city.equals("Roma") || city.equals("Milano");
 		var lista  = cities.stream().collect(Collectors.toList());
-
 		//var lista  = cities.stream().filter(filterCity).collect(Collectors.toList());
 		System.out.println(lista);
 		return lista;
