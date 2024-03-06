@@ -46,8 +46,9 @@ public class AppController {
 	public void setCities(@RequestBody NuovaStringaRequest nuova) {
 		
 		String nuovaStringa = nuova.getNuovaStringa();
-		cities.add(nuovaStringa);	  
-		System.out.println("inserito");
+		cities.add(nuovaStringa);	
+		// modifica label
+		System.out.println("inserita citta");
 	       
 	}	
 
