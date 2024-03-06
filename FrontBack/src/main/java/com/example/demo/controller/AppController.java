@@ -33,10 +33,10 @@ public class AppController {
 	public static List<String> printCities() {
 
 		// accepts an argument and returns a boolean
-		Predicate<String> filterCity = city -> city.equals("Roma") || city.equals("Milano");
-		var lista  = cities.stream().collect(Collectors.toList());
+		Predicate<String> filterCity = city -> city.equals("Roma") || city.equals("Milano") ||  city.equals("Venezia");
+	//	var lista  = cities.stream().collect(Collectors.toList());
 
-	//	var lista  = cities.stream().filter(filterCity).collect(Collectors.toList());
+		var lista  = cities.stream().filter(filterCity).collect(Collectors.toList());
 		System.out.println(lista);
 		return lista;
 	}	
@@ -46,8 +46,9 @@ public class AppController {
 	public void setCities(@RequestBody NuovaStringaRequest nuova) {
 		
 		String nuovaStringa = nuova.getNuovaStringa();
-		cities.add(nuovaStringa);	  
-		System.out.println("inserito");
+		cities.add(nuovaStringa);	
+		// modifica label d
+		System.out.println("inserita citta");
 	       
 	}	
 
