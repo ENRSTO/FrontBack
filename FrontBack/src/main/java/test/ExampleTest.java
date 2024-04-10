@@ -22,9 +22,8 @@ public class ExampleTest {
 	        } else {
 	        	System.out.println("niente");
 	        }
-		 
+	        System.out.println("END");
+	        System.out.println("END2");
 	 }
-	
-	
 
 }
