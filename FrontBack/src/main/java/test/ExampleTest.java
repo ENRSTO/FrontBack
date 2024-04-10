@@ -18,6 +18,7 @@ public class ExampleTest {
 	        System.out.println("Response body: " + responseBody);
 	        if (statusCode == 200) {
 	        	System.out.println("TEST OK!");
+	        	System.out.println("---&&----");
 	        }
 		 
 	 }
