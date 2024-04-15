@@ -27,7 +27,7 @@ public class ExampleTest {
 	        System.out.println("END3");
 	        System.out.println("END5");
 	        System.out.println("PARALLELO");
-	        
+	        System.out.println("PARALLELO1");
 	        
 	 }
 
