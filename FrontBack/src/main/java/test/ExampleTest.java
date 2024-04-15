@@ -19,6 +19,7 @@ public class ExampleTest {
 	        if (statusCode == 200) {
 	        	System.out.println("TEST OK!");
 	        	System.out.println("---&&----");
+	        	System.out.println("----&&&&------");
 	        } else {
 	        	System.out.println("niente");
 	        }
