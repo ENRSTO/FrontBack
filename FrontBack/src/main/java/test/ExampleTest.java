@@ -19,6 +19,7 @@ public class ExampleTest {
 	        if (statusCode == 200) {
 	        	System.out.println("TEST OK!");
 	        	System.out.println("---&&----");
+	        	System.out.println("----&&&&------");
 	        } else {
 	        	System.out.println("niente");
 	        }
@@ -29,6 +30,8 @@ public class ExampleTest {
 	        System.out.println("END-15-04-24");
 	        System.out.println("END-15-04-24-2");
 	        System.out.println("END-15-04-24-3");
+	        System.out.println("PARALLELO");
+	        System.out.println("PARALLELO1");
 	        
 	 }
 
