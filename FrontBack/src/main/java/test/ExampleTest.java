@@ -7,6 +7,8 @@ public class ExampleTest {
 	
 	 public static void main(String[] args) {
 		 
+		 System.out.println("FORRESTGUMP");
+		 
 		  // Effettua una richiesta GET e ottiene la risposta
 	        Response response = RestAssured.get("http://localhost:8080/out");
 
