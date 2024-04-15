@@ -19,6 +19,7 @@ public class ExampleTest {
 	        if (statusCode == 200) {
 	        	System.out.println("TEST OK!");
 	        	System.out.println("---&&----");
+	        	System.out.println("----&&&&------");
 	        } else {
 	        	System.out.println("niente");
 	        }
@@ -26,7 +27,8 @@ public class ExampleTest {
 	        System.out.println("END2");
 	        System.out.println("END3");
 	        System.out.println("END5");
-	        
+	        System.out.println("PARALLELO");
+	        System.out.println("PARALLELO1");
 	        
 	 }
 
