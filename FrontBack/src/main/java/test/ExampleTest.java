@@ -7,6 +7,10 @@ public class ExampleTest {
 	
 	 public static void main(String[] args) {
 		 
+		 System.out.println("FORRESTGUMP");
+		 System.out.println("FORRESTGUMP - COMMIT2");
+		 
+		 
 		  // Effettua una richiesta GET e ottiene la risposta
 	        Response response = RestAssured.get("http://localhost:8080/out");
 
