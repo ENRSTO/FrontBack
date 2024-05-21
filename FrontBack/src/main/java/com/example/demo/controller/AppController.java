@@ -26,7 +26,9 @@ public class AppController {
 		cities.add("Varese");
 		cities.add("Vicenza");
 		cities.add("Venezia");
-	}
+		cities.add("NYC");
+		cities.add("LONDON");
+	} // Static
 	
 	
 	@GetMapping("/out")
