@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "http://localhost:4200")
 public class AppController {
 	
-	static ArrayList<String> cities;
+	final static ArrayList<String> cities;
 	
 	static {
 		// Inizializza l'ArrayList con valori predefiniti
@@ -27,6 +27,7 @@ public class AppController {
 		cities.add("Alessandria");
 		cities.add("Vicenza");
 		cities.add("Venezia");
+		cities.add("USA");
 	}
 	
 	
