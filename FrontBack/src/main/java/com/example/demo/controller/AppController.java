@@ -47,8 +47,8 @@ public class AppController {
 		
 		String nuovaStringa = nuova.getNuovaStringa();
 		cities.add(nuovaStringa);	
-		// modifica label d
-		System.out.println("inserita citta");
+		System.out.println("inserita citta -> x");
+		System.out.println("!!");
 	       
 	}	
 
