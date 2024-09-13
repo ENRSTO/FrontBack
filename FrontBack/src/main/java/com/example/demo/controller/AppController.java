@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "http://localhost:4200")
 public class AppController {
 	
-	static ArrayList<String> cities;
+	final static ArrayList<String> cities;
 	
 	static {
 		// Inizializza l'ArrayList con valori predefiniti
