@@ -24,6 +24,7 @@ public class AppController {
 		cities.add("Milano");
 		cities.add("Napoli");
 		cities.add("Varese");
+		cities.add("Alessandria");
 		cities.add("Vicenza");
 		cities.add("Venezia");
 	}
