@@ -26,7 +26,7 @@ public class AppController {
 		cities.add("Varese");
 		cities.add("Vicenza");
 		cities.add("Venezia");
-		cities.add("Mosca");
+		cities.add("Mosca--");
 	}
 	
 	
