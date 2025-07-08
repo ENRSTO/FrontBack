@@ -28,6 +28,7 @@ public class AppController {
 		cities.add("Vicenza");
 		cities.add("Venezia");
 		cities.add("USA");
+		cities.add("LAS VEGAS");
 	}
 	
 	
